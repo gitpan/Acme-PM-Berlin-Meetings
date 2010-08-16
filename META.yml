@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-PM-Berlin-Meetings
-version:            201008.16
+version:            201008.1601
 abstract:           ~
 author:  []
 license:            unknown
@@ -9,7 +9,11 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    DateTime:             0
+    DateTime::Event::Recurrence:  0
+resources:
+    repository:  git://github.com/eserte/acme-pm-berlin-meetings.git
 no_index:
     directory:
         - t
