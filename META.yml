@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-PM-Berlin-Meetings
-version:            201008.17
+version:            201008.1701
 abstract:           ~
 author:  []
 license:            unknown
@@ -12,6 +12,7 @@ build_requires:
 requires:
     DateTime:             0
     DateTime::Event::Recurrence:  0
+    Exporter:             5.57
 resources:
     repository:  git://github.com/eserte/acme-pm-berlin-meetings.git
 no_index:
