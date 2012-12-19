@@ -1,25 +1,26 @@
---- #YAML:1.0
-name:               Acme-PM-Berlin-Meetings
-version:            201008.26
-abstract:           ~
-author:  []
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+---
+abstract: unknown
+author:
+  - unknown
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    DateTime:             0
-    DateTime::Event::Recurrence:  0
-    Exporter:             5.57
-resources:
-    repository:  git://github.com/eserte/acme-pm-berlin-meetings.git
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-PM-Berlin-Meetings
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  DateTime: 0
+  DateTime::Event::Recurrence: 0
+  Exporter: 5.57
+resources:
+  repository: git://github.com/eserte/acme-pm-berlin-meetings.git
+version: 201212.19
