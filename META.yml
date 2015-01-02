@@ -23,4 +23,4 @@ requires:
   Exporter: 5.57
 resources:
   repository: git://github.com/eserte/acme-pm-berlin-meetings.git
-version: 201212.19
+version: 201501.02
